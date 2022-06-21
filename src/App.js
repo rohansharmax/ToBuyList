@@ -25,7 +25,7 @@ function App() {
       setMode("dark");
       document.body.style.backgroundColor = "#042743";
       showAlert("Dark mode has been enabled", "success");
-      document.title = "TextUtils - Dark Mode";
+      document.title = "Textify - Dark Mode";
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       {/* <Router> */}
-      <Navbar title="TextUtils2" mode={mode} toggleMode={toggleMode}></Navbar>
+      <Navbar title="Textify" mode={mode} toggleMode={toggleMode}></Navbar>
       <Alert alert={alert} />
       <div className="container my-3">
         {
@@ -46,7 +46,7 @@ function App() {
             <Route exact path="/">*/
           <TextForm
             showAlert={showAlert}
-            heading="Enter the text to analyze below"
+            heading="Try Textify- Word Counter, Character Counter, Remove Extra Spaces and Much More | Enter Your Text Below "
             mode={mode}
           />
         }

@@ -1,6 +1,6 @@
 {
   
-  "homepage": "https://rohansharmax.github.io/my-app/TextUtils",
+  "homepage": "https://rohansharmax.github.io/Textify",
   
   "name": "my-app",
   
@@ -20,9 +20,6 @@
   "@testing-library/user-event": "^13.5.0",
   
     
-  "gh-pages": "^4.0.0",
-  
-    
   "react": "^18.1.0",
   
     
@@ -40,8 +37,12 @@
   },
   
   "scripts": {
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+  
+    
+  "predeploy": "npm run build",
+  
+    
+  "deploy": "gh-pages -d build",
   
     
   "start": "react-scripts start",
@@ -118,7 +119,10 @@
   "devDependencies": {
   
     
-  "@types/react-router-dom": "^5.3.3"
+  "@types/react-router-dom": "^5.3.3",
+  
+    
+  "gh-pages": "^4.0.0"
   
   }
 }
