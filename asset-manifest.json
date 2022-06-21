@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ToBuyList/static/css/main.9be137bb.css",
+    "main.js": "/ToBuyList/static/js/main.955ba296.js",
+    "index.html": "/ToBuyList/index.html",
+    "main.9be137bb.css.map": "/ToBuyList/static/css/main.9be137bb.css.map",
+    "main.955ba296.js.map": "/ToBuyList/static/js/main.955ba296.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9be137bb.css",
+    "static/js/main.955ba296.js"
+  ]
+}
